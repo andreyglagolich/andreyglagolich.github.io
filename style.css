@@ -1,0 +1,78 @@
+body{
+    background-color: #333;
+}
+.slider{
+    color: #444;
+    width: auto;
+    height: 98vh;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    background-size: cover;
+}
+
+
+
+.title{
+    text-align: center;
+    margin: 20px auto;
+    
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.btn-back-js{
+    left: 40px;
+    background: url("next_arrow.svg") no-repeat;
+    transform: rotate(180deg);
+    background-position: center;
+    background-color: #FAFAFA;
+}
+.btn-next-js{
+    right: 40px;
+    background: url("next_arrow.svg") no-repeat;
+    background-position: center;
+    background-color: #FAFAFA;
+}
+.rocket{
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+}
+.boom{
+    width: 5px;
+    height: 5px;
+    background-color: orangered;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    opacity: 1;
+}
+.hero_class{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    background: url(unnamed.png);
+    background-size: cover;
+    transform: rotate(1deg);
+}
+.armor_class{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+}
