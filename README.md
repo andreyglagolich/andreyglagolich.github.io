@@ -1,1 +1,0 @@
-# andreyglagolich.github.io
